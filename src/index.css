@@ -1,0 +1,43 @@
+* {
+  font-family: "Newsreader", serif;
+
+
+}
+
+.landingImage {
+  position: relative;
+}
+
+
+
+.landingContent {
+  position: absolute;
+
+  background-color: rgba(0, 0, 0, 0.453);
+  width: 100%;
+  height: 90vh;
+
+
+}
+
+.content {
+  position: absolute;
+  right: 50px;
+
+}
+
+.content h1 {
+
+  font-size: 70px;
+}
+
+.about-content {
+  background-color: white;
+  transition: background-color 0.2s ease-in-out !important;
+}
+
+.about-content:hover {
+  background-color: #1eb2a6;
+  color: white;
+
+}
